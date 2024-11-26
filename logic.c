@@ -1,7 +1,7 @@
 #include "logic.h"
 
 STATION* init_stations() {
-    STATION *st = malloc(10 * sizeof(STATION)); // Allocate memory for 10 stations
+    STATION *st = malloc(10 * sizeof(STATION)); 
     if (st == NULL) {
         perror("Failed to allocate memory");
         return NULL; 
@@ -49,7 +49,6 @@ void set_station_links(STATION* st, int count_links, ...) {
     va_end(arg);
 }
 
-// рекурсивная! 
 void set_steps(STATION* from, int step) {
 
     if (from->steps == unknown || from->steps > step)
@@ -72,12 +71,11 @@ STATION * smallest_prev (STATION* current) {
     } 
 }
 
-
 void find_path(STATION* from, STATION* to, STATION *path[], int* count_st) {
     
     set_steps(from, 0);
 
-    // станций (вершин) будет на 1 больше, чем шагов (ребер). 
+    // станций (вершин) будет на 1 больше, чем шагов (ребер). ❓
     int num_of_stations = to->steps + 1; // локальная переменная для удобства
     *count_st = num_of_stations;
 
