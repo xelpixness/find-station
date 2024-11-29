@@ -75,7 +75,7 @@ void find_path(STATION* from, STATION* to, STATION *path[], int* count_st) {
     
     set_steps(from, 0);
 
-    // станций (вершин) будет на 1 больше, чем шагов (ребер). ❓
+    // станций (вершин) будет на 1 больше, чем шагов (ребер).❓
     int num_of_stations = to->steps + 1; // локальная переменная для удобства
     *count_st = num_of_stations;
 
