@@ -320,7 +320,6 @@ START_TEST(test_finding_smallest_prev_4) {
 
     // может быть и "St #4" и "St #5"  
     // зависит от того как линковали в "setup_all_stations_link"
-
     set_steps(&st[8], 0); 
 
     STATION *st2 = &st[1];
