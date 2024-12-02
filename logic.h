@@ -7,7 +7,7 @@ enum {
     name_length=50,
     total_links=50,
     max_path_station=10,
-    unknown=-1, // для инициализации шагов❓
+    unknown=-1, // для инициализации шагов ❓
 };
 
 typedef struct tag_station {
