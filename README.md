@@ -12,7 +12,7 @@ https://stepik.org/course/193691/info (🔥)
 
 https://www.youtube.com/watch?v=9ev9Y-hJhj4
 
- 🎯 как запустить (компилятор **gcc**): 
+ 🎯 как запустить (компилятор **gcc**) : 
 
 ```shell
 make
