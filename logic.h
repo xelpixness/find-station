@@ -30,4 +30,3 @@ STATION * smallest_prev (STATION* current);
 void set_steps(STATION* from, int step);
 void find_path(STATION* from, STATION* to, STATION *path[], int* count_st);
 void print_path(STATION *path[], int count_st);
-
