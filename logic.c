@@ -95,7 +95,6 @@ void find_path(STATION* from, STATION* to, STATION *path[], int* count_st) {
 
 
 int ask_for_stations(int * p1, int * p2) {
-
     int scanf_res = 0;
 
     printf("------------------\n");
@@ -107,7 +106,6 @@ int ask_for_stations(int * p1, int * p2) {
             return 0;
 
     } while (*p1 < 1 || *p1 > max_path_station);
-    
     
     do {
         printf("  to station (1 - %d): ", max_path_station);

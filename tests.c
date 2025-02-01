@@ -313,7 +313,6 @@ START_TEST(test_finding_smallest_prev_3) {
 END_TEST
 
 
-
 START_TEST(test_finding_smallest_prev_4) {
     STATION* st = init_stations();
     setup_all_stations_links(st);
@@ -330,7 +329,6 @@ START_TEST(test_finding_smallest_prev_4) {
     free_stations(st);
 }
 END_TEST
-
 
 
 START_TEST(test_finding_path_from_1_to_10) {
@@ -354,7 +352,6 @@ START_TEST(test_finding_path_from_1_to_10) {
     free_stations(st);
 }
 END_TEST
-
 
 
 START_TEST(test_finding_path_from_1_to_7) {
@@ -400,7 +397,6 @@ START_TEST(test_finding_path_from_4_to_3) {
 END_TEST
 
 
-
 START_TEST(test_finding_path_from_7_to_5) {
     STATION* st = init_stations();
     setup_all_stations_links(st);
@@ -421,7 +417,6 @@ START_TEST(test_finding_path_from_7_to_5) {
     free_stations(st);
 }
 END_TEST
-
 
 
 START_TEST(test_finding_path_from_6_to_1) {
@@ -466,8 +461,6 @@ START_TEST(test_finding_path_from_10_to_1) {
     free_stations(st);
 }
 END_TEST
-
-
 
 
 int main(void) {
